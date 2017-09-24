@@ -269,7 +269,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.ota.romname=LegendROM \
     persist.ota.version=20170924 \
-    persist.ota.manifest=https://raw.githubusercontent.com/LegendROM-N/android_extras_ota/cm-14.1/oneplus3.xml
+    persist.ota.manifest=https://raw.githubusercontent.com/LegendROM-N/android_extras_ota/cm-14.1/santoni.xml
 
 
 # Wifi
