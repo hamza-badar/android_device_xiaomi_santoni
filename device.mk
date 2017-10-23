@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
 
 # Consumerir
 PRODUCT_PACKAGES += \
-    consumerir.msm8937
+    consumerir.default
 
 # Display
 PRODUCT_PACKAGES += \
