@@ -174,9 +174,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl \
 
 # IPA Manager
-PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
+#PRODUCT_PACKAGES += \
+#    ipacm \
+#    IPACM_cfg.xml
 
 # IRQ
 PRODUCT_COPY_FILES += \
