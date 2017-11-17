@@ -16,10 +16,16 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Get the prebuilt list of APNs
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
-PRODUCT_NAME := lineage_santoni
+# must be before including omni part
+TARGET_BOOTANIMATION_SIZE := 1080x720
+
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
+
+PRODUCT_NAME := omni_santoni
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
