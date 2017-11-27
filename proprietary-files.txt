@@ -550,7 +550,6 @@ vendor/lib/libmmcamera_isp_wb40.so
 bin/hvdcp_opti
 
 # Consumer Ir
-bin/consumerird
 lib/hw/consumerir.default.so
 lib64/hw/consumerir.default.so
 
