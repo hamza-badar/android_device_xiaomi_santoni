@@ -97,8 +97,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
     android.hardware.audio.effect@2.0-impl \
-    android.hardware.broadcastradio@1.0-impl \
-    android.hardware.soundtrigger@2.0-impl
+    android.hardware.audio.effect@2.0-service \
+    android.hardware.soundtrigger@2.0-impl \
+    android.hardware.soundtrigger@2.0-service
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -181,7 +182,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     android.hardware.configstore@1.0-service \
-    android.hardware.broadcastradio@1.0-impl \
     vendor.display.color@1.0-service \
     vendor.display.color@1.0-impl
 
