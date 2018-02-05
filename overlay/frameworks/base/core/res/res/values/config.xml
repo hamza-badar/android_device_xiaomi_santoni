@@ -357,4 +357,7 @@
 
      <!-- Boolean indicating if current platform supports HFP inband ringing -->
      <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+
+    <!-- Doze Addon: should the TYPE_PROXIMITY sensor be used as a pulse signal. -->
+    <bool name="config_dozePulseHandWave">true</bool>
 </resources>
