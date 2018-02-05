@@ -26,6 +26,12 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.invictaos.maintainer=Abhiraj Singh
 
+#Superuser
+WITH_SU := true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.root_access=1
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
