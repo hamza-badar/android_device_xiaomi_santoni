@@ -184,6 +184,10 @@ enum INTERACTIVE_OPCODES {
 
 enum INTERACTIVE_HISPEED_FREQ_LVL {
     HS_FREQ_1026 = 0xF0A,
+<<<<<<< HEAD
+=======
+    HS_FREQ_800  = 0xF08,
+>>>>>>> f2a9c19... santoni: Import CAF power HAL
 };
 
 enum INTERACTIVE_HISPEED_LOAD_LVL {
