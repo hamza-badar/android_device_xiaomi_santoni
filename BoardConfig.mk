@@ -241,3 +241,5 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/santoni/BoardConfigVendor.mk
+
+TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8996
