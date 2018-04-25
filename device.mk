@@ -302,16 +302,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Power
-
 PRODUCT_PACKAGES += \
-    power.qcom
-
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
-    android.hardware.power@1.0-service
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+    power.msm8937
 
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
